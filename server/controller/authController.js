@@ -1,4 +1,4 @@
-const { supabase, supabaseAdmin } = require('../util/supabaseClient');
+const supabase = require('../utils/supabaseClient');
 const catchAsync = require('../util/catchAsync');
 const AppError = require('../util/appError');
 

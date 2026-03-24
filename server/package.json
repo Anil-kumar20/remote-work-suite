@@ -4,8 +4,10 @@
   "description": "Backend API for remote-work-colaboration-suit_Backend",
   "main": "app.js",
   "scripts": {
-  "start:dev": "nodemon server.js",
-  "start": "nodemon server.js"
+    "start:dev": "nodemon server.js",
+    "start": "nodemon server.js",
+    " start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "Ashish Biswas",

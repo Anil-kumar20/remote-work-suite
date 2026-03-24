@@ -8,10 +8,10 @@ const rateLimit = require('express-rate-limit');
 require('dotenv').config({ path: './Config.env' });
 
 // Router
-const userRouter = require('./Router/userRouter');
-const sessionRouter = require('./Router/sessionRouter');
-const { router: documentRouter } = require('./Router/documentRouter');
-const chatRouter = require('./Router/chatRouter');
+const userRouter = require('./Routes/userRouter');
+const sessionRouter = require('./Routes/sessionRouter');
+const documentRouter = require('./Routes/documentRouter');
+const chatRouter = require('./Routes/chatRouter');
 
 // Error handling
 const { globalErrorHandler } = require('./controller/errorController');
